@@ -1,0 +1,84 @@
+body {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: wheat;
+}
+.left {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    background: #2E2E2E;
+}
+
+img {
+    width: 300px;
+    filter: grayscale(1);
+}
+.skills, .language, .contact {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+section {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+
+
+h1 {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+h2 {
+    font-size: 24px;
+    font-style: italic;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+li {
+    list-style-type: none;
+}
+
+.footer {
+    font: 16px Arial, sans-serif;
+    background-color: white;
+
+    justify-content: space-between;
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 10px; 
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
