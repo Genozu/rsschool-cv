@@ -68,19 +68,15 @@
                     <p>Python:</p>
                     <pre><code>
                         # Function for checking tables in the DataBase
-                                                
                         def table_verification(connection, name_table, data_column):
-                                                    
                             name = f"'{name_table}'"
                             query = "SELECT name FROM sqlite_master WHERE type='table';"
                             result = execute_read_query(connection, query)
                             print(result)
-                                                    
                             if (name_table,) in result:
                                 print(f'Таблица {name_table} присутсвует!')
                             else:
                                 print(f'Таблица {name_table} отсутсвует!')
-                                                            
                                 create = create_table(name, data_column)
                                 execute_query(connection, create)
                     </code></pre>
